@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.header {
+    height: $header-height;
+    background-color: #20232a;
+    text-align: center;
+    line-height: $header-height;
+    color: white;
+    font-family: Arial;
+}

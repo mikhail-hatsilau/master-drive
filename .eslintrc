@@ -1,0 +1,24 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+
+    "rules": {
+        "linebreak-style": "off",
+        "indent": ["error", 4],
+
+        "react/require-default-props": "off",
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/no-did-mount-set-state": "off",
+
+        "import/prefer-default-export": 1
+    },
+
+    "env": {
+        "browser": true
+    },
+
+    "globals": {
+        "google": true
+    }
+}
